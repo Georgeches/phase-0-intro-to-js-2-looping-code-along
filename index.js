@@ -1,10 +1,13 @@
 // Code your solutions in this file
-function writeCards(){
-    return 'thank you'
+function writeCards(array, arg){
+  for(let item in array){
+    return `Thank you, ${array}, for the wonderful ${arg} gift! `
+  }
 }
 
-function countDown(){
-    for(n=0; n<=10; n++){
-      console.log(n)      
-    }
+function countDown(num){
+  for (let n = num; n > -1; n--){
+    console.log(n)
+  }
+  
 }
